@@ -55,7 +55,7 @@ define([
                                 ref: "qListObjectDef.qDef.qFieldLabels.0",
                                 label: "Label",
                                 show: function(data) {
-                                    return data.qListObjectDef && data.qListObjectDef.qDef.qFieldLabels.0;
+                                    return data.qListObjectDef && data.qListObjectDef.qDef.qFieldLabels;
                                 }
                             },
                             libraryId: {
